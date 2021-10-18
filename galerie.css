@@ -1,0 +1,288 @@
+.barre{
+    background-color: rgb(79, 79, 100);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    height: 150px;
+}
+
+.cat{
+    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 200px;
+    height: 20px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+.ar{
+    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.moi{
+    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.nouv{
+    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.rech{
+    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.slider{
+    box-shadow: 0 5px 17px rgba(0,0,0,0.2);
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 70%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.slides{
+    width: calc(900px*5);
+    animation: glisse 15s infinite;
+    
+}
+
+.slide{
+    float: left; 
+    margin: 17px; 
+    height: 400px;
+    width: 600px;
+} 
+
+.slider .slides img{
+    width: 600px;
+    height: 400px;
+}
+
+    
+
+/* reglages de la vitesse defillements des images */
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-913px);
+    }
+    50%{
+        transform: translateX(-1860px);
+    }
+    75%{
+        transform: translateX(-2800px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+.pics{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    /* border: 2px solid teal; */
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+img{
+    height: 350px;
+    width:320px;
+    /* border: 2px solid yellow; */
+    margin: 30px auto;
+}
+
+.im9{
+    height: 350px;
+    width:320px;
+    /* border: 2px solid yellow; */
+    margin: 30px 340px;
+}
+
+.signe{
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.crea{
+    margin-left: 123px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(114, 114, 114);
+    width: 150px;
+    /* border-radius: 30px; */
+    box-shadow: 0 5px 17px rgba(0,0,0,0.2);
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.bissoni{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 348px;
+    margin-top: 30px;
+    box-shadow: 0 17px 77px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.RetourEnHaut
+{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: white;
+    opacity: 0;
+    transition: all .4s;
+
+
+}
+
+.RetourEnHaut.active{
+
+        background-color: black;
+        width: 65px;
+        height: 13%;
+        bottom: 32px;
+        pointer-events: auto;
+        opacity: 1;
+
+        
+}
+
+.contact{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgba(141, 138, 138, 0.788);
+    background-repeat: no-repeat;
+    height: 200px;
+    /* background-position: fixed; */
+}
+
+h2{
+    margin-left: 350px;
+}
+
+.mefor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: auto; */
+    margin: auto;
+    justify-content: center;
+   
+}
+
+input{
+    margin-left: 30px;
+}
+
+.border8{
+    margin-top: 20px;
+}
+
+.border7
+{
+    /* border:  2px solid red; */
+    margin-top: 89px;
+}
+
+.footer{
+    background-color:  rgb(79, 79, 100);;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    color: white;
+}
+
+p{
+    margin: 20px;
+}
+
+.writh{
+    margin-left: 380px;
+}
+
+#icon-menu{
+    visibility: hidden;
+}
+
+@media screen and (max-width:945px){
+
+
+    #icon-menu{
+        visibility: visible;
+        color: white;
+        margin-left: 90vw;
+        width: 4vw;
+        min-width: 5vw ;
+        
+    }
+
+    .barre{
+
+            visibility: hidden;
+            color: yellow;
+        
+    }
+}
