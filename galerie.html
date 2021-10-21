@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="galerie.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
@@ -13,22 +14,35 @@
 </head>
 <body>
     
-    <nav class="barre">
 
-        <div class="logo"><img src="tofs/8.jpeg" class="signe" alt=""></div>
-        <div class="cat">Catégorie</div>
-        <div class="ar">Mes tableaux</div>
-        <div class="moi">A propos de moi</div>
-        <div class="nouv">Nouveautés</div>
-        <div class="rech">Recherche</div>
+    <nav>
 
+        <input type="checkbox" id="check">
+
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <label class="image">Les toiles de Lovely</label>
+        <ul>
+            <li class="fond"><a class="active" href="#">Catégorie</a></li>
+            <li class="fond"><a href="#">Mes tableaux</a></li>
+            <li class="fond"><a href="#">A propos de moi</a></li>
+            <li class="fond"><a href="#">Nouveautés</a></li>
+            <li class="fond"><a href="#">Recherche</a></li>
+        </ul>
+        
     </nav>
+    
+    
+    <h3 style="text-align: center; margin-top: 50px;"></h3>
+    
 
     <a id="icon-menu" href="#"><i class="fas fa-bars"></i></a>
     
     <a href="#" class="RetourEnHaut">
 
-        <i class="fas fa-angle-up"></i>
+        
     
     </a>
 
@@ -64,22 +78,22 @@
         <div class="bissoni"><p> Bonjour, </br></br>
             je suis Daisy Samba peintre de talent je vous expose aujourd'
             mes différentes créations ... </p></div>
-        <div class="droit"><img src="tofs/21.jpeg" alt=""></div>
+        <div class="droit"><img src="tofs/21.jpeg" class="afro" alt=""></div>
     </div>
 
 <div class="contact">
     
-    <div class=""><h2>Contactez-moi</h2> </div>
+    
     
     <div class="mefor">
         
+        <div class="cm"><h4>Contactez-moi</h4> </div>
         
         <input type="text" placeholder="Votre titre">
         <input type="text" placeholder="Entrez votre nom">
         <input type="text" placeholder="Entrez votre Prénom">
         <input type="text" placeholder="L'objet de votre message">
-        <textarea name="message" class="border8" cols="25" rows="5" placeholder="Ecrivez votre message"></textarea> </br>
-    </br> 
+        <textarea name="message" class="border8" cols="25" rows="5" placeholder="Ecrivez votre message"></textarea> 
         <input type="submit" value="Envoyer" class="border7"/>
    
     
