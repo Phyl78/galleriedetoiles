@@ -529,11 +529,13 @@ input{
 }
 p{
     margin: 20px;
+    font-size: 19px;
 }
 
 .writh{
-    margin-left: 380px;
+    margin:auto;
     transition: all 0.2s ease-in-out;
+    font-size: 15px;
 }
 
 .writh:hover{
@@ -585,3 +587,10 @@ p{
     
 }
 
+
+@media screen and (max-width:635px){
+    .contact{
+        margin-left: 40px;
+    }
+    
+}
