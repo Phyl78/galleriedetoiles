@@ -191,7 +191,7 @@ nav ul li a {
     }
 
     .border7{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         /* position: relative; */
         
     }
@@ -349,7 +349,7 @@ img{
     height: 350px;
     width:320px;
     /* border: 2px solid yellow; */
-    margin: 30px 340px;
+    /* margin: 20px 340px 0 0; */
 }
 
 .signe{
@@ -368,7 +368,13 @@ img{
     background-color: rgb(114, 114, 114);
     width: 200px;
     /* border-radius: 30px; */
-    box-shadow: 0 5px 17px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 17px rgba(0,0,0,0.6);
+    transition: all 0.2s ease-in-out;
+    border-radius: 50px;
+}
+
+.crea:hover{
+    color: #790303;
 }
 
 .cont{
@@ -425,12 +431,50 @@ img{
     
     /* display: flex; */
     /* flex-direction: column; */
-    margin: 30px auto;
-    width: 70%;
-    background-color: rgba(141, 138, 138, 0.788);
+    /* margin: auto; */
+    background-image: url(tofs/depositphotos_31152539-stock-photo-abstract-background-grey-grunge-paper.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    min-width: 640px;
     height: 300px;
-    /* background-position: fixed; */
+    min-height: 450px;   
+    /* border: 2px solid red;  */
+}
+
+input{
+    font-size: 20px;
+    margin-top: 10px;
+    /* border: 2px solid green; */
+}
+
+h2{
+  text-align: center;
+ 
+  /* width: 190px;
+  border: 2px solid red; */
+}
+
+.titre
+{
+    margin-bottom: 10px;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin: auto;
+    /* border: 2px solid blue; */
+    min-width: 400px;
+    height: 300px;
+    min-height: 380px;
+    width: 80%; 
+    
 }
 
 h2{
@@ -453,13 +497,16 @@ input{
 
 .border8{
     margin-top: 20px;
-    margin-bottom: -50px;
+    margin-bottom: -70px;
+    margin-left: 35px;
+    
 }
 
 .border7
 {
     /* border:  2px solid red; */
     margin-top: 89px;
+    margin-right: 5px;
 }
 
 .footer{
@@ -470,17 +517,44 @@ input{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 100px;
+    height: 250px;
     color: white;
 }
+.footer p {
+    transition: all 0.2s ease-in-out;
+}
 
+.footer p:hover{
+    color: #790303;
+}
 p{
     margin: 20px;
 }
 
 .writh{
     margin-left: 380px;
+    transition: all 0.2s ease-in-out;
 }
+
+.writh:hover{
+    color: #790303;
+}
+
+.acheter{
+
+    background-color: rgb(114, 114, 114);
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 5px 17px rgba(0,0,0,0.6);
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.acheter:hover{
+    background: #790303;
+}
+
 
 /* #icon-menu{
     visibility: hidden;
