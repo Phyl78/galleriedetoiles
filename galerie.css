@@ -433,21 +433,24 @@ img{
     /* margin: auto; */
     background-image: url(tofs/depositphotos_31152539-stock-photo-abstract-background-grey-grunge-paper.jpg);
     background-repeat: no-repeat;
+    background-position: fixed;
     background-size: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     width: 100%;
     min-width: 640px;
-    height: 300px;
-    min-height: 450px;   
-    /* border: 2px solid red;  */
+    height: 390px;
+    min-height: 300px;   
+    border: 2px solid red; 
+    padding-bottom: 56px;
 }
 
 input{
     font-size: 20px;
     margin-top: 10px;
+    
     /* border: 2px solid green; */
 }
 
@@ -511,17 +514,27 @@ input{
 .footer{
     background-color:  rgb(79, 79, 100);;
     background-repeat: no-repeat;
+    /* background-position: fixed; */
     height: 250px;
+    width: 100%;
+    min-width: 640px;
+    /* min-width: 849px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
     /* max-height: 300px; */
-    margin-top: 30px;
-    padding: 10px 0; 
+    /* margin-top: 30px;
+    padding: 10px 0;  */
     color: white;
+    border:  2px solid blue; 
 }
 
 
 .footer .social{
     text-align: center;
     padding-bottom: 2px;
+    margin-top: 70px;
     color:rgb(66, 24, 66);    
     
 }
@@ -558,17 +571,19 @@ input{
     margin-top: 0;
     padding: 0;
     list-style: none;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.6;
-    margin-bottom: 0;
+    margin:auto;
     text-align: center;
-    
+    border:  2px solid yellow; 
+    min-width: 849px;
+    width: 900px;
 }
 
 
 .footer ul li a{
      
-    color: inherit;
+    /* color: inherit; */
     text-decoration: none;
     opacity: 0.8;
     
@@ -591,8 +606,10 @@ input{
     
 }
 p{
-    margin: 20px;
-    font-size: 19px;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+   
 }
 
 .writh{
@@ -653,7 +670,7 @@ p{
 
 @media screen and (max-width:635px){
     .contact{
-        margin-left: 40px;
+        margin-left: 10px;
     }
     
 }
