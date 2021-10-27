@@ -443,7 +443,7 @@ img{
     min-width: 640px;
     height: 390px;
     min-height: 300px;   
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     padding-bottom: 56px;
 }
 
@@ -527,7 +527,7 @@ input{
     /* margin-top: 30px;
     padding: 10px 0;  */
     color: white;
-    border:  2px solid blue; 
+    /* border:  2px solid blue; */
 }
 
 
