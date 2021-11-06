@@ -34,3 +34,5 @@ const txtAnim=document.querySelector('h3');
 .typeString( " Je vous remercie d\'avance pour votre participation !" )
 
 .start()
+
+

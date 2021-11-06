@@ -340,7 +340,7 @@ nav ul li a {
 img{
     height: 350px;
     width:320px;
-    /* border: 2px solid yellow; */
+    /* border: 2px solid    ; */
     margin: 30px auto;
 }
 
@@ -631,6 +631,7 @@ p{
     box-shadow: 0 5px 17px rgba(0,0,0,0.6);
     transition: all 0.2s ease-in-out;
     color: white;
+    
 }
 
 .acheter:hover{
@@ -673,4 +674,97 @@ p{
         margin-left: 10px;
     }
     
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container .gauche{
+    /* border: 2px solid blue ; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 140px;
+    /* margin-right: auto; */
+    /* margin-bottom: 30px; */
+    width: 775px;
+    /* height:250% ; */
+} 
+
+.droit{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    height:150%;
+    width:500px ;
+    background-color: rgb(241, 229, 229);
+    padding-bottom: 90px;
+
+    /* border: 2px solid rebeccapurple; */
+
+
+}
+
+.payer{
+    margin-bottom: auto;
+    margin-top: -330px;
+    margin-left: 40px;
+    /* width: 74px; */
+
+}
+
+.image{
+    height: 250px;
+}
+
+.interieur{
+    margin-right:90px;
+    /* border: 2px solid green; */
+}
+
+.frais_de_livraison{
+    margin-right: 290px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 1.3em;
+}
+
+.total{
+    margin-right: 405px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.interieur{
+    margin-top: 120px;
+}
+
+
+/* .frais{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+} */
+
+#paypal-button-container{
+    /* border: 2px solid blue; */
+    width: 300px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    /* border: 2px solid green; */
+    height: 200%;
+    width: 100%;
+
+}
+
+.image_produit{
+    margin: 5px auto 0px;
 }
