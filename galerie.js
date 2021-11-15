@@ -10,6 +10,19 @@ window.addEventListener("scroll", ()=>{
     }
 })
 
+// window.onload=function(){
+//     var s=document.getElementById("t").innerHTML; 
+//     alert(s);
+// }
+
+let imgElement=document.getElementById('imgDisplay');
+
+async function loading(){
+    imgElement.src=await getFile ('data/2.jpeg'); 
+}
+
+
+
 
 
 const txtAnim=document.querySelector('h3');
@@ -34,5 +47,14 @@ const txtAnim=document.querySelector('h3');
 .typeString( " Je vous remercie d\'avance pour votre participation !" )
 
 .start()
+
+
+
+
+
+
+
+
+    
 
 

@@ -86,16 +86,15 @@ nav ul li a {
     
 }
 
-@media (max-width:952px) {
+@media (max-width:900px) {
 
-    label.image{
-        font-size: 30px;
-        /* padding-left: 0px; */
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-    
-    nav ul li a {
-        font-size: 13px;
-    }
+
+   
 }
 
 
@@ -676,42 +675,23 @@ p{
     
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-
-}
 
 .container .gauche{
     /* border: 2px solid blue ; */
     display: flex;
     flex-direction: column;
-    padding-bottom: 140px;
-    /* margin-right: auto; */
-    /* margin-bottom: 30px; */
-    width: 775px;
-    /* height:250% ; */
+    /* padding-bottom: 10px; */
+    width: 583px;
+    
 } 
 
 .droit{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    height:150%;
-    width:500px ;
+    margin: auto;
+    width:583px ;
     background-color: rgb(241, 229, 229);
-    padding-bottom: 90px;
-
     /* border: 2px solid rebeccapurple; */
-
-
-}
-
-.payer{
-    margin-bottom: auto;
-    margin-top: -330px;
-    margin-left: 40px;
-    /* width: 74px; */
 
 }
 
@@ -720,34 +700,54 @@ p{
 }
 
 .interieur{
-    margin-right:90px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: -30px; */
     /* border: 2px solid green; */
 }
 
 .frais_de_livraison{
-    margin-right: 290px;
-    margin-top: 50px;
+    /* margin-right: 100px; */
+    margin-top: 20px;
     margin-bottom: 0px;
     font-size: 1.3em;
+     /* border: 2px solid green; */
 }
 
+.alignement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 2px solid yellow; */
+    width: 73%;
+    margin:0px auto 20px;
+     
+}
+
+.badge_de_confiance{
+    /* border: 2px solid yellow; */
+    width: 470px;
+    height: 120px;
+    margin: auto;
+    
+}
+
+.badge{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
 .total{
-    margin-right: 405px;
-    margin-bottom: 40px;
-    margin-top: 10px;
+    /* margin-right: 405px; */
+    margin-top: 20px;
     font-size: 1.3em;
 }
 
 .interieur{
-    margin-top: 120px;
+    margin: 50px auto 0px;
 }
-
-
-/* .frais{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-} */
 
 #paypal-button-container{
     /* border: 2px solid blue; */
@@ -758,9 +758,9 @@ p{
 .container{
     display: flex;
     flex-direction: row;
-    /* margin: auto; */
+    margin: auto;
     /* border: 2px solid green; */
-    height: 200%;
+    height: 100%;
     width: 100%;
 
 }
@@ -768,3 +768,5 @@ p{
 .image_produit{
     margin: 5px auto 0px;
 }
+
+
