@@ -740,7 +740,11 @@ padding: 0 15px;
 }
 
 .image_produit{
-    margin: 5px auto 0px;
+    margin: 35px auto 30px;
+    /* border: 2px solid rosybrown; */
+    width: 80%;
 }
 
-
+.image_pagePaiement{
+    width: 100%;
+}
