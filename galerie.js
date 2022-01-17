@@ -51,10 +51,40 @@ const txtAnim=document.querySelector('h3');
 
 
 
+let survol1 = document.getElementById("im2");
+
+survol1.addEventListener('mouseover', function (e) {
+
+    this.setAttribute('src', 'tofs/43.jpeg');
+} );
+
+survol1.addEventListener('mouseout', function (e){
+    this.setAttribute('src', 'tofs/10.jpeg');
+});
 
 
 
+let survol2 = document.getElementById("im4");
 
+survol2.addEventListener('mouseover', function (e) {
+
+    this.setAttribute('src', 'tofs/37.jpeg');
+} );
+
+survol2.addEventListener('mouseout', function (e){
+    this.setAttribute('src', 'tofs/11.jpeg');
+});
     
 
+let survol3 = document.getElementById("im11");
+
+survol3.addEventListener('mouseover', function (e) {
+
+    this.setAttribute('src', 'tofs/34.jpeg');
+} );
+
+survol3.addEventListener('mouseout', function (e){
+    this.setAttribute('src', 'tofs/23.jpeg');
+});
+    
 
