@@ -88,3 +88,22 @@ survol3.addEventListener('mouseout', function (e){
 });
     
 
+let survol4 = document.getElementById("im34");
+
+survol4.addEventListener('mouseover', function(e){
+    this.setAttribute('src', 'tofs/48.jpeg');
+});
+
+survol4.addEventListener('mouseout', function (e){
+    this.setAttribute('src', 'tofs/35.jpeg');
+});
+
+let survol5 = document.getElementById('im24'); 
+
+survol5.addEventListener('mouseover', function(e){
+    this.setAttribute('src', 'tofs/36.jpeg');
+});
+
+survol5.addEventListener('mouseout', function(e){
+    this.setAttribute('src', 'tofs/1.jpeg');
+});
